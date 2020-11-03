@@ -3,7 +3,7 @@
   # which commands to run to build
   run:
     - npm i
-    - npm run build:all
+    - npm run build:AASD
   # which files / folders to deploy after build
   deploy: [ dist, package.json ]
   temporaryShutdown: true
