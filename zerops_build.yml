@@ -3,8 +3,8 @@ use: [ nodejs@13 ]
 # which commands to run to build
 run:
   - npm i
-  - npm run bu
+  - npm run build
 # which files / folders to deploy after build
 deploy: [ dist, package.json ]
 temporaryShutdown: true
-########
+######
